@@ -1,4 +1,4 @@
-// ===== Seleção de elementos e constantes =====
+// ===== Seleção de elementos =====
 const form = document.getElementById("registerForm");
 const campos = {
     nome: document.getElementById("nome"),
@@ -147,7 +147,7 @@ function exibirComprovante() {
         return; 
     }
 
-    // Pega apenas o último usuário cadastrado para exibir o comprovante formal
+    
     const ultimoUsuario = usuarios[usuarios.length - 1];
 
     const cardSucesso = document.createElement("div");
